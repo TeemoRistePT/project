@@ -101,7 +101,7 @@ section {
   }
   
   .subtitulo img {
-    width: 100px;
+    width: 80%;
     margin-top: 10px;
   }
   
@@ -274,3 +274,68 @@ form {
   button:hover {
     background-color: #1F8A70;
   }
+
+  /* Estilos específicos para la sección con id "por-que-elegirnos" */
+#por-que-elegirnos .container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#por-que-elegirnos .contenido {
+  flex: 1;
+  text-align: justify;
+}
+
+#por-que-elegirnos .subtitulo img {
+  width: 80%;
+  margin-top: 10px;
+}
+
+/* Estilos específicos para tablet (768px) */
+@media screen and (max-width: 768px) {
+  #por-que-elegirnos .subtitulo img {
+    width: 80px;
+  }
+}
+
+/* Estilos específicos para la sección con id "propuesta-educativa" */
+#propuesta-educativa .container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+#propuesta-educativa .tarjeta {
+  flex: 0 0 calc(25% - 40px); /* Esto hace que las tarjetas ocupen 25% del ancho disponible, con un espacio de 40px entre ellas */
+  text-align: center;
+  margin: 20px;
+}
+
+#propuesta-educativa .tarjeta img {
+  width: 200px;
+}
+
+#propuesta-educativa {
+  text-align: center; /* Centramos el contenido horizontalmente */
+}
+
+#propuesta-educativa h2 {
+  margin-bottom: 20px; /* Espacio entre el texto y las tarjetas */
+}
+
+
+/* Estilos específicos para tablet (768px) */
+@media screen and (max-width: 768px) {
+  #propuesta-educativa .tarjeta {
+    flex: 0 0 calc(50% - 40px); /* Ahora las tarjetas ocuparán 50% del ancho disponible, con un espacio de 40px entre ellas */
+  }
+}
+
+/* Estilos específicos para dispositivos móviles (320px) */
+@media screen and (max-width: 320px) {
+  #propuesta-educativa .tarjeta {
+    flex: 0 0 calc(100% - 40px); /* En dispositivos móviles, las tarjetas ocuparán el 100% del ancho disponible, con un espacio de 40px entre ellas */
+  }
+}
