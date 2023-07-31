@@ -339,3 +339,16 @@ form {
     flex: 0 0 calc(100% - 40px); /* En dispositivos móviles, las tarjetas ocuparán el 100% del ancho disponible, con un espacio de 40px entre ellas */
   }
 }
+
+/* Colores de fondo para cada sección */
+#quienes-somos {
+  background-color: #F2F2F2; /* Gris claro para la sección Quienes somos */
+}
+
+#por-que-elegirnos {
+  background-color: #EAEAEA; /* Gris claro para la sección Por qué elegirnos */
+}
+
+#propuesta-educativa {
+  background-color: #F7F7F7; /* Gris claro para la sección Propuesta educativa */
+}
