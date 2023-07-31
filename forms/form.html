@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Sitio web institucional de UntrefSchool">
+  <meta name="TeemoRistePt&openAI" content="Octavio">
+  <title>Untref School</title>
+  <link rel="stylesheet" href="/styles/style.css">
+</head>
+
+<body>
+  <header>  <!-- Barra de navegación -->
+    <nav>
+      <div class="container">
+        <div class="logo">UntrefSchool</div>
+        <ul class="menu">
+          <li><a href="/index.html">Quienes somos</a></li>
+          <li><a href="#por-que-elegirnos">¿Por qué elegirnos?</a></li>
+          <li><a href="#propuesta-educativa">Propuesta educativa</a></li>
+          <li><a href="#ultimas-noticias">Últimas noticias</a></li>
+          <li><a href="contacto.html" target="_blank">Contacto</a></li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+  
+  <!--INICIO FORM-->
+  <main>
+    <section id="contacto">
+      <div class="container">
+        <div class="tarjeta">
+          <h2>Contacto</h2>
+          <form>
+            <div class="form-group">
+              <label for="nombre">Nombre:</label>
+              <input type="text" id="nombre" name="nombre" required>
+            </div>
+            <div class="form-group">
+              <label for="apellido">Apellido:</label>
+              <input type="text" id="apellido" name="apellido" required>
+            </div>
+            <div class="form-group">
+              <label for="mail">Email:</label>
+              <input type="email" id="mail" name="mail" required>
+            </div>
+            <div class="form-group">
+              <label for="fecha-nacimiento">Fecha de nacimiento:</label>
+              <input type="date" id="fecha-nacimiento" name="fecha-nacimiento" required>
+            </div>
+            <div class="form-group">
+              <label>Área de interés:</label>
+              <label><input type="checkbox" name="area-interes" value="Front-end">Front-end</label>
+              <label><input type="checkbox" name="area-interes" value="Back-end">Back-end</label>
+              <label><input type="checkbox" name="area-interes" value="Data Analytics">Data Analytics</label>
+              <label><input type="checkbox" name="area-interes" value="Data Science">Data Science</label>
+            </div>
+            <div class="form-group">
+              <label for="comentarios">Comentarios (máx. 400 caracteres):</label>
+              <textarea id="comentarios" name="comentarios" maxlength="400"></textarea>
+            </div>
+            <button type="submit">Enviar</button>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!--INICIO FOOTER-->
+  <footer>
+    <div class="container">
+        <div class="footer-section">
+          <h4>Redes sociales</h4>
+          <div class="social-media">
+            <a href="#" target="_blank" class="icon-facebook">Facebook</a>
+            <a href="#" target="_blank" class="icon-instagram">Instagram</a>
+            <a href="#" target="_blank" class="icon-twitter">Twitter</a>
+          </div>
+        </div>
+  
+        <div class="footer-section">
+          <h4>Encontranos</h4>
+          <img src="ruta/a/tu/imagen.png" alt="Logotipo" class="logo-footer">
+        </div>
+  
+        <div class="footer-section">
+          <h4>Comunicate</h4>
+          <div class="contact-info">
+            <p>Email: info@untrefschool.com</p>
+            <p>Teléfono: +54 11 1234-5678</p>
+            <p>WhatsApp: +54 9 8765-4321</p>
+          </div>
+        </div>
+      </div>
+  </footer>
+
+</body>
+
+</html>

@@ -1,0 +1,276 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Belanosima&display=swap');
+
+/* Estilos generales */
+body {
+  font-family: 'Poppins', Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  color: #181823;
+  background-color: #EFF5F5;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh; /* Establecemos la altura mínima de la ventana */
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Belanosima', Arial, sans-serif;
+}
+
+a {
+  color: #00425A;
+  text-decoration: none;
+}
+
+/* Estilos de la barra de navegación */
+/* Estilos de la barra de navegación */
+nav {
+    background-color: #00425A;
+    color: #EFF5F5;
+    padding: 10px 0;
+  }
+  
+  nav .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  nav .logo {
+    font-size: 24px;
+    font-weight: 700;
+  }
+  
+  nav .menu {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  
+  nav .menu li {
+    margin-left: 20px;
+  }
+  
+  nav .menu li:first-child {
+    margin-left: 0;
+  }
+  
+  nav .menu li a {
+    text-decoration: none;
+    color: #EFF5F5;
+  }
+  
+  /* Estilos específicos para tablet (768px) */
+  @media screen and (max-width: 768px) {
+    nav .logo {
+      font-size: 20px;
+    }
+  }
+  
+  /* Estilos específicos para dispositivos móviles (320px) */
+  @media screen and (max-width: 320px) {
+    nav .logo {
+      font-size: 18px;
+    }
+  }
+
+/* Estilos de las secciones */
+section {
+    padding: 50px 0;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+  
+  .subtitulo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .subtitulo img {
+    width: 100px;
+    margin-top: 10px;
+  }
+  
+  .contenido {
+    text-align: justify;
+  }
+  
+  .tarjeta {
+    text-align: center;
+    margin: 20px;
+  }
+  
+  .tarjeta img {
+    width: 200px;
+  }
+
+  /* Estilos específicos para tablet (768px) */
+@media screen and (max-width: 768px) {
+    .subtitulo img {
+      width: 80px;
+    }
+  
+    .tarjeta img {
+      width: 150px;
+    }
+  }
+  
+  /* Estilos específicos para dispositivos móviles (320px) */
+  @media screen and (max-width: 320px) {
+    .container {
+      padding: 5px;
+    }
+  
+    .subtitulo img {
+      width: 60px;
+    }
+  
+    .tarjeta img {
+      width: 120px;
+    }
+  }
+
+/* Estilos del pie de página */
+footer {
+  background-color: #181823;
+  color: #EFF5F5;
+  padding: 20px 0;
+  text-align: center;
+  margin-top: auto; /* Empujamos el footer al final de la pagina*/
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+h4 {
+  font-size: 20px;
+  margin-bottom: 15px;
+  color: #1F8A70;
+}
+
+.logo-footer {
+  width: 100px;
+}
+
+.social-media {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.social-media li {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.social-media a {
+  font-size: 14px;
+  color: #EFF5F5;
+  text-decoration: none;
+}
+
+.contact-info {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.contact-info li {
+  font-size: 14px;
+  margin-bottom: 5px;
+}
+
+footer {
+    background-color: #181823;
+    color: #EFF5F5;
+    padding: 20px 0;
+    text-align: center;
+    margin-top: auto;
+  }
+  
+  .footer-section {
+    margin-bottom: 20px;
+  }
+  
+  h4 {
+    font-size: 16px;
+    margin-bottom: 10px;
+    color: #1F8A70;
+  }
+  
+  .logo-footer {
+    width: 100px;
+  }
+  
+  .social-media a {
+    display: block;
+    font-size: 12px;
+    color: #EFF5F5;
+    text-decoration: none;
+    margin-bottom: 5px;
+  }
+  
+  .contact-info p {
+    font-size: 12px;
+    margin: 5px 0;
+  }
+
+  /* Estilos del formulario */
+form {
+    max-width: 400px;
+    margin: 0 auto;
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  .form-group label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  .form-group input,
+  .form-group textarea {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+  }
+  
+  .form-group textarea {
+    resize: vertical;
+  }
+  
+  button {
+    background-color: #00425A;
+    color: #EFF5F5;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+  }
+  
+  button:hover {
+    background-color: #1F8A70;
+  }
